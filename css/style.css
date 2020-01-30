@@ -1,0 +1,29 @@
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.display {
+    background-color: #000000;
+    text-align: right;
+}
+
+.operatore {
+    background-color: #df974c;
+    text-align: center;
+    float: left;
+}
+
+.numero {
+    background-color: #d8d9db;
+    text-align: center;
+    float: left;
+}
+
+img {
+    background-size: cover;
+    height: 30%;
+    vertical-align: middle;
+    transform: translateY(100%);
+}
